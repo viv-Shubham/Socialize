@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+
+a{
+  color: black !important;
+}
+.input-field input:focus {
+  border-bottom: 1px solid black !important;
+  box-shadow: 0 1px 0 0 black !important;
+}
+.auth-card {
+  max-width: 400px;
+  margin: 45px auto;
+  text-align: center;
+  padding: 40px;
+}
+.sign-btn {
+  color: white !important;
+  background-color: black !important;
+  margin: 8px 0 5px;
+  border-radius: 7px;
+  width: 100% !important;
+  height: 40px !important;
+}
+.sign-btn:hover{
+  color:black !important;
+  background-color: white !important;
+}
+.instagam-img {
+  margin-bottom: 15px;
+  width: 180px;
+  height: 180px;
+}
+.fullpage {
+  margin: 50px 70px;
+}
+nav{
+  background-color: #2d4059 !important;
+}
+.nav-wrapper{
+  margin:0 7%;
+}
+.brand-logo{
+  color: #fff !important;
+}
+.nav-items{
+  color: #fff !important;
+}
+.profile-head {
+display: flex;
+justify-content: space-around;
+margin-top: 0;
+max-width: 700px;
+}
+.profile-gallery{
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  transform-style: preserve-3d;
+}
+.profile-gallery .ptbBx{
+  position: relative;
+  width: 300px;
+  height: 230px;
+  margin: 10px 0;
+  transform-style: preserve-3d;
+}
+.profile-gallery .ptbBx:hover{
+  box-shadow: 0 50px 80px rgba(0,0,0,.2);
+}
+.profile-gallery .ptbBx .profile-item{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.profile-gallery .ptbBx .contentBx{
+  position: absolute;
+  top: 30%;
+  left: 40px;
+  right: 40px;
+  font-weight: 700;
+    font-size: 20px;
+    color: #324e63;
+  text-align: center;
+  transform: translateZ(20px) scaleY(0);
+  padding: 40px 25px;
+  transform-origin: top;
+  transform: 0.5s;
+  transform-style: preserve-3d;
+}
+.profile-gallery .ptbBx:hover .contentBx{
+transform: translateZ(50px) scaleY(1);
+}
+.home-card{
+  max-width: 500px;
+  max-height: max-content;
+  margin: 26px auto;
+}
+#toast-container{
+  top:60px !important;
+  right:80px !important;
+  left: auto !important;
+}
+.material-icons:hover{
+  cursor: pointer;
+}
