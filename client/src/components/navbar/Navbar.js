@@ -124,6 +124,9 @@ const Navbar = (props)=>{
           </BurgerWrapper>
         </FlexContainer>
         <div id="modal1" className="modal" ref={searchModal} style={{color:"black",minHeight:"max-content",maxHeight:"400px",minWidth:"400px",maxWidth:"400px",position:"absolute",zIndex:"99999"}}>
+        <div className="modal-footer">
+            <button className="modal-close waves-effect waves-green btn-flat" onClick={()=>setSearch('')} style={{fontWeight:"600",fontSize:"2.1rem"}}>X</button>
+          </div>
           <div className="modal-content">
           <input
             type="text"
@@ -141,9 +144,7 @@ const Navbar = (props)=>{
                
               </ul>
           </div>
-          <div className="modal-footer">
-            <button className="modal-close waves-effect waves-green btn-flat" onClick={()=>setSearch('')} style={{fontWeight:"600",fontSize:"2.1rem"}}>close</button>
-          </div>
+          
           </div>
       </NavBar>
       </div>
