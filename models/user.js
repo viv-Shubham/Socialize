@@ -20,7 +20,10 @@ const userSchema = new mongoose.Schema({
     }
     ,
     followers:[{type:ObjectId,ref:"User"}],
-    following:[{type:ObjectId,ref:"User"}]
+    following:[{type:ObjectId,ref:"User"}],
+    resetToken:{type: String},
+    expireToken:{type: Date}
+
 })
 
 mongoose.model("User",userSchema);
